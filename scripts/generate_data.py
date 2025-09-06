@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 import random
 
 # Load parameters from CSV
-def load_parameters(filepath='data/dhyana_parameters.csv'):
+def load_parameters(filepath='../data/dhyana_parameters.csv'):
     df = pd.read_csv(filepath)
     params = dict(zip(df['Parameter'], df['Value']))
     return params
