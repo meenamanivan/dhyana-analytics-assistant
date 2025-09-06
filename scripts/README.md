@@ -31,6 +31,8 @@ The assistant is designed to analyze key product patterns around user retention,
 
 ---
 
+```
+
 ## Folder Structure
 
 dhyana-analytics-assistant/
@@ -43,6 +45,8 @@ dhyana-analytics-assistant/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+
+```
 
 Coming Soon
 	•	Streamlit-based dashboard for visual exploration
