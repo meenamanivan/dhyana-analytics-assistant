@@ -193,7 +193,7 @@ df_users = pd.DataFrame(patients + doctors)
 df_events = pd.DataFrame(events)
 
 # Save to CSVs
-df_users.to_csv("data/synthetic_users.csv", index=False)
-df_events.to_csv("data/synthetic_events.csv", index=False)
+df_users.to_csv("../data/synthetic_users.csv", index=False)
+df_events.to_csv("../data/synthetic_events.csv", index=False)
 
 print("Saved synthetic_users.csv and synthetic_events.csv to /data")
