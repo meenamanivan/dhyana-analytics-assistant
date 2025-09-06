@@ -1,0 +1,15 @@
+Parameter,Value,Justification
+monthly_patient_growth_rate,0.08,Patient base grows by 8% monthly via doctor referrals and organic adoption.
+monthly_doctor_growth_rate,0.05,"Doctor base grows at a slower, more controlled pace."
+patient_conversion_rate,0.85,"85% of signups complete onboarding, typical for health-focused apps."
+avg_time_to_first_session_days,2.3,Most active users begin using within 1–3 days.
+avg_sessions_per_week,3.4,Average weekly meditation sessions for engaged users.
+community_feature_adoption_rate,0.22,Around 22% of users engage with community features.
+early_churn_rate,0.24,24% drop off within the first 2 weeks.
+program_completion_rate,0.37,Users who complete the full program over 3–12 months.
+healed_user_rate,0.3,Users who complete the program and naturally drop off after healing.
+power_user_rate,0.08,Highly engaged users who remain active >6 months.
+reengagement_rate,0.14,"Churned users who return later, often via prompts."
+avg_program_duration_weeks,10.5,Average time to full program completion.
+avg_time_to_halfway_weeks,6.0,Time to reach halfway point of program.
+avg_journals_per_week,2.1,Journal entries submitted weekly by active users.
