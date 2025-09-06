@@ -29,6 +29,24 @@ The assistant is designed to analyze key product patterns around user retention,
   A Retrieval-Augmented Generation layer to interpret natural language PM questions  
   Will retrieve relevant logic templates and generate analysis code  
 
+## 📊 Example Outputs
+
+### `synthetic_users.csv`
+
+| user_id | user_type | signup_date | assigned_doctor | churned_early | completed | healed | power_user | reengaged |
+|---------|-----------|-------------|------------------|----------------|-----------|--------|-------------|------------|
+| PAT00001 | patient | 2022-04-15 | DOC0001 | True | False | False | False | False |
+| PAT00002 | patient | 2022-04-15 | DOC0002 | False | True | True | False | False |
+| DOC0001 | doctor | 2022-04-12 | — | — | — | — | — | — |
+
+### `synthetic_events.csv`
+
+| event_id | user_id | timestamp           | event_type      | session_length |
+|----------|---------|---------------------|------------------|----------------|
+| E001     | PAT00001 | 2022-04-16T09:23:00 | journal_entry    | 5 mins         |
+| E002     | PAT00001 | 2022-04-18T07:00:00 | meditation       | 10 mins        |
+| E003     | PAT00002 | 2022-04-18T09:45:00 | completed_program| —              |
+
 ---
 
 ```
