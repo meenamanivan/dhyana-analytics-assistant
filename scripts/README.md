@@ -48,7 +48,8 @@ dhyana-analytics-assistant/
 
 ```
 
-Coming Soon
-	•	Streamlit-based dashboard for visual exploration
-	•	LLM-powered assistant to answer product manager questions
-	•	Use-case-specific charts and insights (e.g., funnel, cohort, segmentation)
+**Coming Soon**
+
+- Streamlit-based dashboard for visual exploration  
+- LLM-powered assistant to answer product manager questions  
+- Use-case-specific charts and insights (e.g., funnel, cohort, segmentation)
